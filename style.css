@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Tilt Neon", sans-serif;
+    overflow: hidden;
+    box-sizing: border-box;
+
+}
+
+body {
+    background-image: url(clearsky.jpeg);
+    background-size: 150% 100%;
+    /* increase the background size */
+    width: 100vw;
+    /* reduce the width */
+    height: 100vh;
+    color: white;
+    text-align: center;
+    background-repeat: no-repeat;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+
+}
+
+.weather_card {
+    display: flex;
+    border: 2px solid black;
+    width: 500px;
+    height: auto;
+    margin: auto;
+    margin-top: 50px;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+    background-color: rgba(49, 48, 48, 0.5);
+}
+
+#weather-title {
+    width: 100vw;
+    height: 100px;
+    font-weight: 900;
+    font-size: 100px;
+    font-weight: bold;
+    padding-left: 30vw;
+
+
+}
+
+.searchid {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+input {
+    width: 80vw;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.card-img img {
+    margin-top: 20px;
+    width: 100px;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+.high-low {
+    justify-content: center;
+    align-items: center;
+    font-size: 28px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.weather-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.humidity,
+.wind {
+    display: flex;
+    flex-direction: row;
+}
+
+.humidity svg,
+.wind svg {
+    width: 20px;
+    height: 20px;
+}
+
+.tempe {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
+}
+
+#temperature {
+    width: 100px;
+    height: 30px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    font-size: 24px; font-weight: bold;
+}
+
+#searchbox svg {
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    justify-content: center;
+    margin-left: -6px;
+    cursor: pointer;
+}
+.tempe{
+    font-size: 44px;
+    font-weight: bold;
+}
+@media screen and (max-width: 300px) and (min-width: 100px){
+    #weather-title {
+        font-size: 30px;
+        margin-left: -20px;
+    }
+    .weather_card {
+        width: 100%;
+        margin-left: 5px; 
+    }
+    .tempe{
+        font-size: 14px;
+    }
+    #temperature {
+       
+        font-size: 14px;
+        background-color: black;
+        color: white;
+        cursor: pointer;
+    }
+}
+
+@media screen and (max-width: 600px) and (min-width: 301px) {
+    #weather-title {
+        font-size: 50px;
+        margin-left: -30px; 
+    }
+    .weather_card {
+        width: 100%;
+        margin-left: 5px; 
+    }
+    .tempe{
+        font-size: 24px;
+        font-weight: bold;
+    }
+    
+    
+}
+@media screen and (max-width: 1000px) and (min-width: 601px) {
+    #weather-title {
+        font-size: 50px;
+        
+    }
+    .weather_card {
+       
+       
+        height:500px; 
+    }
+    
+    
+}
+@media screen and (max-width: 1000px) and (min-width: 1001px){
+    #weather-title {
+        font-size: 100px;
+        margin-left: -40px;
+
+        
+    }
+}
+
+
+   
