@@ -48,7 +48,7 @@ body {
     font-weight: 800;
     font-size: 100px;
     font-weight: bold;
-    padding-left: 30vw;
+    padding-left: 28vw;
   
 
 
@@ -133,7 +133,8 @@ input {
 @media screen and (max-width: 300px) and (min-width: 100px){
     #weather-title {
         font-size: 30px;
-        margin-left: -20px;
+        margin-left: -15px;
+        margin-top: 60px;
     }
     .weather_card {
         width: 100%;
@@ -154,11 +155,10 @@ input {
 @media screen and (max-width: 600px) and (min-width: 301px) {
     #weather-title {
         font-size: 50px;
-        margin-left: -30px; 
+        margin-left: -35px; 
     }
     .weather_card {
         width: 100%;
-        margin-left: 5px; 
     }
     .tempe{
         font-size: 24px;
@@ -173,6 +173,8 @@ input {
 @media screen and (max-width: 1000px) and (min-width: 601px) {
     #weather-title {
         font-size: 50px;
+        margin-left: -18px;
+        margin-top: 60px;
         
     }
     .weather_card {
@@ -183,11 +185,12 @@ input {
     
     
 }
-@media screen and (max-width: 1000px) and (min-width: 1001px){
+@media screen and (max-width: 1300px) and (min-width: 1001px){
     #weather-title {
         font-size: 100px;
-        margin-left: -40px;
-
+        margin-left: 18px;
+        margin-top: 60px;
+        margin-left: -35px;
         
     }
 }
